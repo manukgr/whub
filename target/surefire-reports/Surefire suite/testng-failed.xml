@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="FbHomePageTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+          <include name="test_that_hello_world_is_posted_successfully"/>
+        </methods>
+      </class> <!-- FbHomePageTest -->
+      <class name="FbLoginPageTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+          <include name="test_that_user_is_able_to_login_into_facebook"/>
+        </methods>
+      </class> <!-- FbLoginPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
